@@ -1,0 +1,131 @@
+.formulario {
+    width: 400px;
+    padding: 30px;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    background-color: #dfc8ab;
+    box-shadow: 0 5px 10px #585858;
+}
+/* Aqui irá inserir uma largura e uma borda que irá formatar todo o formulário */
+
+.formulario p {
+    width: 100%;
+    font-family: fantasy;
+    font-size: 1.5em;
+}
+/* Aqui irá inserir uma largura em 100%.
+Família da fonte.
+Tamanho da fonte */
+
+.field {
+    width: 100%;
+    margin: 15px 0;
+}
+/* Aqui irá inserir a largura em 100%
+Tamanho da margem em 15px e 0 */
+
+.field label, .field span {
+    padding-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    display: block;
+    width: 100%;
+}
+/* Aqui irá realizar a formatação do label do formulário, o preenchimento a esquerda e 10px.
+Família da fonte.
+O tamanho da fonte.
+Exibição em bloco.
+largura em 100%. */
+
+.radiobox label {
+    width: auto;
+    display: inline-block;
+}
+/* Aqui irá alterar a caixa do texto.
+Largura se informação.
+Exibição em bloco embutido. */
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+    background-color: #ceffef;
+    box-shadow: 0 5px 10px 0 #9c9c9c;
+}
+/* Aqui irá realizar a formatação das caixas de texto que irá receber as formatações e textarea.
+Largura 100%.
+Preenchimento a esquerda 10px.
+Altura 30px.
+Altura da linha 30px.
+Raio da borda 15px.
+Borda 1px, solida e cor #ccc.
+Contorno nenhum.
+Sombra */
+
+input#nao {
+    margin-left: 30px;
+}
+/* Aqui será utilizado para formatar a margem à esquerda com o tamanho de 30px */
+
+textarea {
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+/* Aqui será utilizado na testarea que seria uma caixa de texto que recebe maior quantidade de texto.
+Altura de linhna em 20px.
+Preenchimento 10px.
+Altura 90px.
+Redimensionamento nenhum. */
+
+input[type=submit], input[type=reset] {
+    /* position: relative;
+    display: inline-flex;
+    justify-content: center; */
+    background-color: #6bc5d1;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+/* Aqui irá realizar a formatação do botão de envio e de limpar campos
+Display exibição em bloco
+Cor de fundo #ccc
+Altura 35px
+Borda nenhuma
+Contorno 0
+Cursor ponteiro
+Largura 100px
+Margem 0 e auto
+Alinhamento do texto centralizado
+Raio da borda 15px
+Sombra */
+
+input[type=submit]:hover, input[type=reset]:hover {
+    /* position: relative;
+    display: inline-flex;
+    justify-content: center; */
+    background-color: #026e7c;
+    color: #ccc;
+    font-weight: bold;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px #585858;
+}
+/* Efeito hover dos botões */

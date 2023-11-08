@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario_01.css">
+    <title>Ex Formulário 01</title>
+</head>
+<body>
+    <nav>
+       <form class="formulario" method="post">
+            <p>Envie uma mensagem preenchendo o formulàrio abaixo</p>            
+            <div class="field">
+                <label for="nome">Seu Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu Nome *" required>
+            </div>            
+            <div class="field">
+                <label for="telefone">Seu Telefone</label>
+                <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+            </div>            
+            <div class="field">
+                <label for="email">Seu E-Mail</label>
+                <input type="text" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+            </div>
+            <div class="field radiobox">
+                <span>Deseja receber nossas novidades?</span>
+                <input type="radio" id="sim" name="novidades" value="sim" checked><label for="sim">Sim</label>
+                <input type="radio" id="nao" name="novidades" value="nao"><label for="nao">Não</label>
+            </div>
+            <div class="field">
+                <label for="mensagem">Sua Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+            </div>
+                <div>
+                <input type="submit" name="acao" value="Enviar">
+                <input type="reset" name="reset" value="Limpar">
+            </div>
+        </form>
+    </nav>    
+</body>
+</html>
